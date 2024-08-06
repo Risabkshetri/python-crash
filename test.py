@@ -1,27 +1,23 @@
-# # This program prints Hello, world!
+## 1. demostrate the installation process of python IDLE and spider anaconda
+## 2. write a program to print simple message of hellow world on the screen
+# message = 'Hellow world'
+# print(message)
+# print(message)
+## 3. write a program to callculate area of circle and area of rectangle.
+#import math
 
-# print('Hello, world!')
-
-# num1 = 1.5 
-# num2 = 1.5
-# print(num1 + num2)
-
-# a = bool(0)
-# print(a)
-
-# a = complex(1, 2)
-# print(a)
-
-# import math
-
-# radius = float(input("Enter radius of circle: "))
+# radius = float(input("Enter radius of a circle: "))
 
 # area = math.pi * radius ** 2
-# print(area)
 
-# name = input("Enter your name: ")
-# print("Hello " + name + "!")
+# print("Area of circle = ", area)
 
+# length = float(input("Enter length of Rectangle : "))
+# breath = float(input("Enter the breath of Reactangle : "))
+# areaOfReactangle = length * breath
+# print(areaOfReactangle)
+
+## 4. write a program to identify the type of a particular vaue stored in a variable
 # a = 10
 # print(type(a))
 
@@ -39,23 +35,48 @@
 
 # f = 3 + 4j
 # print(type(f))
+# 5. write a program to input marks of five subjects and calculated the sum, avearage and percentage.
 
-# num1 = int(input("Enter first number: "))
-# num2 = int(input("Enter second number: "))
+subjects = ["DEC", "Python", "C programming", "OOP", "Data Structures"]
+marks = []
+total_marks = 0
 
-# sum = num1 + num2
+for subject in subjects:
+    mark = float(input(f"Enter the marks for {subject}: "))
+    marks.append(mark)
+    total_marks += mark
 
-# print("Sum of {0} and {1} is {2}".format(num1, num2, sum))
+average = total_marks / len(subjects)
+percentage = (total_marks / (len(subjects) * 100)) * 100
 
-x= 'Hellow world'
+print("\nIndividual subject marks:")
+for subject, mark in zip(subjects, marks):
+    print(f"{subject}: {mark}")
 
-print(x)
-print(x.upper())
-print(x.lower())
-print(x[0:5])
-print(x.replace("world", "universe"))
-y = ' universe'
+print("\nResults:")
+print(f"Total marks: {total_marks}")
+print(f"Average marks: {average:.2f}")
+print(f"Percentage: {percentage:.2f}%")
 
-print(x+y)
-z = 3
-print(x*z)
+## 6. demostrate the usases of arithmetic operators
+
+num1 = 10
+num2 = 20
+sum = num1 + num2
+print(sum)
+
+subtract = num1 - num2
+print(subtract)
+
+multi = num1 * num2
+print(multi)
+
+division = num1 / num2
+print(division)
+
+mod = num1 / num2
+print(mod)
+
+power = num1 ** num2
+print(power)
+
