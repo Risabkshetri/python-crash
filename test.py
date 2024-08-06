@@ -20,7 +20,7 @@
 ## 4. write a program to identify the type of a particular vaue stored in a variable
 # a = 10
 # print(type(a))
-
+ 
 # b = 10.0
 # print(type(b))
 
@@ -58,35 +58,58 @@
 # print(f"Average marks: {average:.2f}")
 # print(f"Percentage: {percentage:.2f}%")
 
-## 6. demostrate the usases of arithmetic operators
+## 6. demostrate the usases of all the operators in python
+# 6.1. arithmetic operators
+print(5 + 2)  # Addition: 7
+print(5 - 2)  # Subtraction: 3
+print(5 * 2)  # Multiplication: 10
+print(5 / 2)  # Division: 2.5
+print(5 // 2) # Floor Division: 2
+print(5 % 2)  # Modulus: 1
+print(5 ** 2) # Exponentiation: 25
 
-# num1 = 10
-# num2 = 20
-# sum = num1 + num2
-# print(sum)
+# 6.2. comparison operators
+print(5 == 2)  # Equal to: False
+print(5 != 2)  # Not equal to: True
+print(5 > 2)   # Greater than: True
+print(5 < 2)   # Less than: False
+print(5 >= 2)  # Greater than or equal to: True
+print(5 <= 2)  # Less than or equal to: False
 
-# subtract = num1 - num2
-# print(subtract)
+# 6.3. logical operators
+print(5 and 2)  # Logical AND: 2
+print(5 or 2)   # Logical OR: 5
+print(not 5)    # Logical NOT: False
 
-# multi = num1 * num2
-# print(multi)
+# 6.4. assignment operators
 
-# division = num1 / num2
-# print(division)
+x = 5
+x += 2  # x = x + 2
+print(x)  # 7
+x -= 2  # x = x - 2
+print(x)  # 5
+x *= 2  # x = x * 2
+print(x)  # 10
+x /= 2  # x = x / 2
+print(x)  # 5.0
 
-# mod = num1 / num2
-# print(mod)
+# 6.5. bitwise operators
+print(5 & 3)   # Bitwise AND: 1
+print(5 | 3)   # Bitwise OR: 7
+print(5 ^ 3)   # Bitwise XOR: 6
+print(~5)      # Bitwise NOT: -6
+print(5 << 1)  # Left shift: 10
+print(5 >> 1)  # Right shift: 2
 
-# power = num1 ** num2
-# print(power)
+# 6.6. identity operators
+x = [1, 2, 3]
+y = [1, 2, 3]
+z = x
+print(x is z)     # True
+print(x is y)     # False
+print(x is not y) # True
 
-## 7. demostrate the usases of logical operators
-
-a = True
-b = False
-print(a and b)
-print(a or b)
-print(not a)
-print(not b)
-
-##  
+# 6.7. membership operators
+x = [1, 2, 3]
+print(1 in x)  # True
+print(4 not in x)  # True
