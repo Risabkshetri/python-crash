@@ -37,46 +37,56 @@
 # print(type(f))
 # 5. write a program to input marks of five subjects and calculated the sum, avearage and percentage.
 
-subjects = ["DEC", "Python", "C programming", "OOP", "Data Structures"]
-marks = []
-total_marks = 0
+# subjects = ["DEC", "Python", "C programming", "OOP", "Data Structures"]
+# marks = []
+# total_marks = 0
 
-for subject in subjects:
-    mark = float(input(f"Enter the marks for {subject}: "))
-    marks.append(mark)
-    total_marks += mark
+# for subject in subjects:
+#     mark = float(input(f"Enter the marks for {subject}: "))
+#     marks.append(mark)
+#     total_marks += mark
 
-average = total_marks / len(subjects)
-percentage = (total_marks / (len(subjects) * 100)) * 100
+# average = total_marks / len(subjects)
+# percentage = (total_marks / (len(subjects) * 100)) * 100
 
-print("\nIndividual subject marks:")
-for subject, mark in zip(subjects, marks):
-    print(f"{subject}: {mark}")
+# print("\nIndividual subject marks:")
+# for subject, mark in zip(subjects, marks):
+#     print(f"{subject}: {mark}")
 
-print("\nResults:")
-print(f"Total marks: {total_marks}")
-print(f"Average marks: {average:.2f}")
-print(f"Percentage: {percentage:.2f}%")
+# print("\nResults:")
+# print(f"Total marks: {total_marks}")
+# print(f"Average marks: {average:.2f}")
+# print(f"Percentage: {percentage:.2f}%")
 
 ## 6. demostrate the usases of arithmetic operators
 
-num1 = 10
-num2 = 20
-sum = num1 + num2
-print(sum)
+# num1 = 10
+# num2 = 20
+# sum = num1 + num2
+# print(sum)
 
-subtract = num1 - num2
-print(subtract)
+# subtract = num1 - num2
+# print(subtract)
 
-multi = num1 * num2
-print(multi)
+# multi = num1 * num2
+# print(multi)
 
-division = num1 / num2
-print(division)
+# division = num1 / num2
+# print(division)
 
-mod = num1 / num2
-print(mod)
+# mod = num1 / num2
+# print(mod)
 
-power = num1 ** num2
-print(power)
+# power = num1 ** num2
+# print(power)
 
+## 7. demostrate the usases of logical operators
+
+a = True
+b = False
+print(a and b)
+print(a or b)
+print(not a)
+print(not b)
+
+##  
