@@ -53,12 +53,10 @@ day = int(input("Enter the day: "))
 
 year = day // 365
 day = day % 365
-month = day // 30
-day = day % 30
 week = day // 7
 day = day % 7
 
-print(f"{year}:{month}:{week}:{day}")
+print(f"year:{year},week:{week} and days:{day}")
 
 ## 9. write a program to check whether a number is even or odd
 
