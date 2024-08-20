@@ -1,62 +1,62 @@
 ## 1. demostrate the installation process of python IDLE and spider anaconda
 ## 2. write a program to print simple message of hellow world on the screen
-# message = 'Hellow world'
-# print(message)
-# print(message)
-## 3. write a program to callculate area of circle and area of rectangle.
-#import math
+message = 'Hellow world'
+print(message)
+print(message)
+# 3. write a program to callculate area of circle and area of rectangle.
+import math
 
-# radius = float(input("Enter radius of a circle: "))
+radius = float(input("Enter radius of a circle: "))
 
-# area = math.pi * radius ** 2
+area = math.pi * radius ** 2
 
-# print("Area of circle = ", area)
+print("Area of circle = ", area)
 
-# length = float(input("Enter length of Rectangle : "))
-# breath = float(input("Enter the breath of Reactangle : "))
-# areaOfReactangle = length * breath
-# print(areaOfReactangle)
+length = float(input("Enter length of Rectangle : "))
+breath = float(input("Enter the breath of Reactangle : "))
+areaOfReactangle = length * breath
+print(areaOfReactangle)
 
 ## 4. write a program to identify the type of a particular vaue stored in a variable
-# a = 10
-# print(type(a))
+a = 10
+print(type(a))
  
-# b = 10.0
-# print(type(b))
+b = 10.0
+print(type(b))
 
-# c = True
-# print(type(c))
+c = True
+print(type(c))
 
-# d = "10"
-# print(type(d))
+d = "10"
+print(type(d))
 
-# e = "10.0"
-# print(type(e))
+e = "10.0"
+print(type(e))
 
-# f = 3 + 4j
-# print(type(f))
+f = 3 + 4j
+print(type(f))
 # 5. write a program to input marks of five subjects and calculated the sum, avearage and percentage.
 
-# subjects = ["DEC", "Python", "C programming", "OOP", "Data Structures"]
-# marks = []
-# total_marks = 0
+subjects = ["DEC", "Python", "C programming", "OOP", "Data Structures"]
+marks = []
+total_marks = 0
 
-# for subject in subjects:
-#     mark = float(input(f"Enter the marks for {subject}: "))
-#     marks.append(mark)
-#     total_marks += mark
+for subject in subjects:
+    mark = float(input(f"Enter the marks for {subject}: "))
+    marks.append(mark)
+    total_marks += mark
 
-# average = total_marks / len(subjects)
-# percentage = (total_marks / (len(subjects) * 100)) * 100
+average = total_marks / len(subjects)
+percentage = (total_marks / (len(subjects) * 100)) * 100
 
-# print("\nIndividual subject marks:")
-# for subject, mark in zip(subjects, marks):
-#     print(f"{subject}: {mark}")
+print("\nIndividual subject marks:")
+for subject, mark in zip(subjects, marks):
+    print(f"{subject}: {mark}")
 
-# print("\nResults:")
-# print(f"Total marks: {total_marks}")
-# print(f"Average marks: {average:.2f}")
-# print(f"Percentage: {percentage:.2f}%")
+print("\nResults:")
+print(f"Total marks: {total_marks}")
+print(f"Average marks: {average:.2f}")
+print(f"Percentage: {percentage:.2f}%")
 
 ## 6. demostrate the usases of all the operators in python
 # 6.1. arithmetic operators
@@ -113,3 +113,6 @@ print(x is not y) # True
 x = [1, 2, 3]
 print(1 in x)  # True
 print(4 not in x)  # True
+
+
+
