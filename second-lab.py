@@ -1,4 +1,4 @@
-# demondtrate all the string operarions in the C++ programing.
+# 7. demondtrate all the string operarions in the C++ programing.
 
 # 1. contatination
 
@@ -47,7 +47,7 @@ print('h' not in a);
 print('h' in a)
 
 
-## write a program to enter the days and print in the format yr:month:week:day
+## 8. write a program to covert the numbers of days into measures of year week and days
 
 day = int(input("Enter the day: "))
 
@@ -60,7 +60,7 @@ day = day % 7
 
 print(f"{year}:{month}:{week}:{day}")
 
-## write a program to covert the numbers of days into measures of year week and days
+## 9. write a program to check whether a number is even or odd
 
 num = int(input("Eneter any number : "));
 if(num%2 == 0):
