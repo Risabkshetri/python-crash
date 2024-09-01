@@ -2,7 +2,6 @@
 ## 2. write a program to print simple message of hellow world on the screen
 message = 'Hellow world'
 print(message)
-print(message)
 # 3. write a program to callculate area of circle and area of rectangle.
 import math
 

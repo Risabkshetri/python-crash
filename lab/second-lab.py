@@ -62,7 +62,7 @@ print(f"year:{year},week:{week} and days:{day}")
 
 num = int(input("Eneter any number : "));
 if(num%2 == 0):
-    print("number is even")
+    print("number is even") 
 
 else:
     print("number is odd ")
