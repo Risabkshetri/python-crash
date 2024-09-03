@@ -1,7 +1,7 @@
 ## 1. demostrate the installation process of python IDLE and spider anaconda
 ## 2. write a program to print simple message of hellow world on the screen
 message = 'Hellow world'
-print(message)
+print(f"Rishab says: {message}")
 # 3. write a program to callculate area of circle and area of rectangle.
 import math
 
@@ -16,7 +16,7 @@ breath = float(input("Enter the breath of Reactangle : "))
 areaOfReactangle = length * breath
 print(areaOfReactangle)
 
-## 4. write a program to identify the type of a particular vaue stored in a variable
+## 4. write a program to identify the type of a particular vlue stored in a variable
 a = 10
 print(type(a))
  
@@ -36,7 +36,7 @@ f = 3 + 4j
 print(type(f))
 # 5. write a program to input marks of five subjects and calculated the sum, avearage and percentage.
 
-subjects = ["DEC", "Python", "C programming", "OOP", "Data Structures"]
+subjects = ["DEC", "Python", "C programming", "OOPs", "Data Structures"]
 marks = []
 total_marks = 0
 

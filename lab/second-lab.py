@@ -2,46 +2,46 @@
 
 # 1. contatination
 
-a = 'rishabh';
+a = 'rishabh'
 b = 'khetri'
 
-print(a+b);
+print(a+b)
 
 # 2. Repeatiation
-print(a*3);
+print(a*3)
 
 # 3. Indexing
-print(a[0]);
-print(a[1]);
+print(a[0])
+print(a[1])
 
 # 4. Slicing
 
-print(a[0:2]);
-print(a[0:3]);
+print(a[0:2])
+print(a[0:3])
 
 # 5. len
-print(len(a));
+print(len(a))
 
 # 6. upper
-print(a.upper());
+print(a.upper())
 
 # 7. lower
-print(a.lower());
+print(a.lower())
 
 # 8. Capitalize
-print(a.capitalize());
+print(a.capitalize())
 
 # max
-print(max(a));
+print(max(a))
 
 # min
-print(min(a));
+print(min(a))
 
 # count
-print(a.count('h'));
+print(a.count('h'))
 
 # not in
-print('h' not in a);
+print('h' not in a)
 
 # in
 print('h' in a)
@@ -60,7 +60,7 @@ print(f"year:{year},week:{week} and days:{day}")
 
 ## 9. write a program to check whether a number is even or odd
 
-num = int(input("Eneter any number : "));
+num = int(input("Eneter any number : "))
 if(num%2 == 0):
     print("number is even") 
 
