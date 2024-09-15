@@ -1,15 +1,15 @@
-# # if statement
-# x = int(input("Enter a number: "))
-# if x<=10:
-#     print("x is less than or equal to 10")
+# if statement
+x = int(input("Enter a number: "))
+if x<=10:
+    print("x is less than or equal to 10")
 
 
-# # if else statement
-# x = int(input("Enter a number: "))
-# if x<=10:
-#     print("x is less than or equal to 10")
-# else:
-#     print("x is greater than 10")
+# if else statement
+x = int(input("Enter a number: "))
+if x<=10:
+    print("x is less than or equal to 10")
+else:
+    print("x is greater than 10")
 
 #loop: 1.for loop
 Row = int(input("Enter the number of rows:"))
