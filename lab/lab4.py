@@ -101,6 +101,8 @@ set1.discard(10)
 print(set1)
 set1.difference_update(set2)
 print(set1)
+set1.symmetric_difference(set2)
+print(set1)
 set1.clear()
 print(set1)
 
