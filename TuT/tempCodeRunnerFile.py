@@ -25,3 +25,13 @@
 
 # print(max(Tuple3))
 # print(min(Tuple3))
+
+
+# write a python function to return a list of 10 random numbers
+import random
+def randomNumbers():
+    list = []
+    for i in range(10):
+        list.append(random.randint(1,100))
+    return list
+print(randomNumbers())
