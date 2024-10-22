@@ -40,10 +40,9 @@ class C:
     def display_c(self):
         print("Class C")
 
-class D(B, C):  
+class D(B, C): 
     def display_d(self):
         print("Class D")
-
 
 # Multi-level Inheritance
 class E(D):  #
