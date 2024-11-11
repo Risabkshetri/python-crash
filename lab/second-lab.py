@@ -5,12 +5,13 @@
 a = 'rishabh'
 b = 'khetri'
 
-print(a+b)
+print(a+b) 
 
 # 2. Repeatiation
 print(a*3)
 
-# 3. Indexing
+# 3. In
+# dexing
 print(a[0])
 print(a[1])
 
