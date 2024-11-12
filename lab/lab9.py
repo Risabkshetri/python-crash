@@ -11,7 +11,6 @@ class listHandler:
 myList = listHandler()
 del myList
 
-print('\n')
 
 # program to demonstrate the use of method overloading in python
 
@@ -23,7 +22,6 @@ calc = Calculator()
 print("sum = ", calc.add(20))
 print("sum = ", calc.add(10.5, 20.5))
 
-print('\n')
 
 # write a program in numpy to resize an image
 import numpy as np
@@ -33,7 +31,6 @@ resized_arr = np.resize(arr, (100, 100, 3))
 print("Original array shape: ", arr.shape)
 print("Resized array shape: ", resized_arr.shape)
 
-print('\n')
 
 # # write a program to convert the particular image to grayscale image
 # import cv2
@@ -50,7 +47,6 @@ arr2 = np.array([[5,6], [7,8]])
 arr3 = np.add(arr1, arr2)
 print("Sum: \n", arr3)
 
-print('\n')
 
 # write a program in numpy to multiply two matrices
 arr1 = np.array([[1,2], [3,4]])
@@ -58,14 +54,12 @@ arr2 = np.array([[5,6], [7,8]])
 arr3 = np.dot(arr1, arr2)
 print("Multiplication: \n", arr3)
 
-print('\n')
 
 # write a program in numpy to inverse of a matrice.
 arr = np.array([[1,2], [3,4]])
 arr_inv = np.linalg.inv(arr)
 print("Inverse: \n", arr_inv)
 
-print('\n')
 
 # write a program in numpy to implement linear search.
 
