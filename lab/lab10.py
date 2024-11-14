@@ -90,7 +90,7 @@ plt.show()
 labels = ['Category A', 'Category B', 'Category C', 'Category D']
 sizes = [15, 30, 45, 10]
 colors = ['gold', 'lightcoral', 'lightskyblue', 'lightgreen']
-explode = (0, 0.1, 0, 0)  # "explode" the 2nd slice (i.e. 'Category B')
+explode = (0, 0.1, 0, 0) 
 
 plt.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%', shadow=True, startangle=140)
 plt.title("Pie Chart")
@@ -155,6 +155,8 @@ plt.show()
 
 
 ## 4. python script read an image from file and display it
-#Image-Viz project
+# See Image-Viz project
+
 
 # 5. python script to make calculator using Tkinter
+# See Calculator project
