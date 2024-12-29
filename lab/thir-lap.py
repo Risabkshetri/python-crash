@@ -44,7 +44,7 @@
 
  
 
-# WAP to check the wheather give year is leap year or not
+# # WAP to check the wheather give year is leap year or not
 
 # year = int(input("Enter a year: "))
 
@@ -55,7 +55,7 @@
 
 
 
-# 12. WAP to program to print the multiplication table of a number
+# # 12. WAP to program to print the multiplication table of a number
 
 # a = int(input("Enter a number: "))
 
@@ -72,7 +72,7 @@
 #         continue
     
 
-# 13 WAP to find the greatest number among three numbers
+# # 13 WAP to find the greatest number among three numbers
 
 # a = int(input("Enter first number: "))
 # b = int(input("Enter second number: "))
@@ -85,7 +85,7 @@
 # else:
 #     print(f"{c} is the greatest number")
 
-# WAP to calculate sum of n natural number:
+# # WAP to calculate sum of n natural number:
 
 # n = int(input("Enter number : "))
 # sum = 0
@@ -95,11 +95,20 @@
 # print(f"sum = {sum}")
 
 
-# WAP to calculate the factorial of number;
+# # WAP to calculate the factorial of number;
 
-n = int(input("Enter a number: "))
-fact = 1
-for i in range(1, n+1):
-    fact = fact*i   
+# n = int(input("Enter a number: "))
+# fact = 1
+# for i in range(1, n+1):
+#     fact = fact*i   
 
-print(fact)
+# print(fact)
+
+
+# print multiplication table of a number:
+
+num = int(input("Enter any number: "))
+
+for i in range(1, 11):
+    print(f"{num} * {i} = {num * i}")
+

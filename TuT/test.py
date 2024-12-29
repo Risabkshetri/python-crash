@@ -1,71 +1,46 @@
-# def pyramid_pattern(n):
-#     for i in range(n):
-#         print(' ' * (n - i - 1) + '*' * (2 * i + 1))
+# import pandas as pd
+# import numpy as np
 
-# n = int(input("Enter the number of rows: "))
-# pyramid_pattern(n)
-
-# Users = {
-#     "id": 1,
-#     "Name": "Rishab",
-#     "Age": 18,
-#     "Friends": ["Aatif", "Shan", "Saddam"],
+# data = {
+#     'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
+#     'Age': [24, 22, 22, 32, 28],
+#     'Department': ['HR', 'IT', 'Marketing', 'HR', 'IT'],
+#     'Salary': [50000, 60000, 70000, 80000, 90000],
+#     'Joining Date': ['2018-01-01', '2019-02-01', '2020-03-01', '2021-04-01', '2022-05-01'],
+#     'City': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']
 # }
-# print(type(Users))
-# print(Users)
-# print(Users["Name"])
-# print(Users["Friends"])
-# print(type(Users["Friends"]))
-# print(Users.keys())
-# print(Users.values())
-# print(Users.items())
-# print(sorted(Users))
-# del Users["Age"]
-# print(Users)
-# print(len(Users))
-# print(Users.__len__()) 
-# Users.clear()
-# del Users
 
+# df = pd.DataFrame(data)
 
-# list 
+# print('\nName column:\n', df['Name'])
 
-# mylist = [1, 2, 3, 4, 5]
-# print(mylist)
+# filtered_df = df[df['Age']  > 25]
+# print('\nFiltered DataFrame:\n', filtered_df)
 
-# print(type(mylist))
+# grouped_df = df.groupby('Department').mean(numeric_only=True)
+# print('\nGrouped DataFrame:\n', grouped_df)
 
-# mylist.append(6)
-# print(mylist)
+# sorted_df = df.sort_values(by='Salary', ascending=False)
+# print('\nSorted DataFrame:\n', sorted_df)
 
-# mylist.insert(0,0)
-# print(mylist)
+# df_drop = df.drop(columns=['Joining Date', 'City'])
+# print('\nDataFrame after dropping columns:\n', df_drop)
 
-# mylist.remove(6)
-# print(mylist)
-# mylist.pop(0)
-# print(mylist)
-# mylist.clear()
-# print(mylist)
-# del mylist
+# from PIL import Image
 
-# #python tuple
+# img = Image.open('images/example.jpg')
+# img.show()
 
-# myTup = (1,1,1)
-# print(myTup)
+# resized_img = img.resize((299,200))
+# print("Resized Image: ", resized_img)
 
+# new_size = (int(img.width * 0.5), int(img.height * 0.4))
+# reScaled_img = img.resize(new_size)
 
-# # python sets
+a = 20
+def chek():
+    a = 10
+    print(a)
 
-# myset = {2,2,3}
-# print(myset)
-
-# swapping two numbers
-
-def swap(a,b):
-    b = a + b
-    a = b - a
-    b = b - a
-    return a, b;
-
-print(swap(5,6))
+chek()
+print(a)

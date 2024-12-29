@@ -1,15 +1,26 @@
 # write a program to show the concept of destructor in python
 
+# class listHandler:
+#     def __init__(self):
+#         self.list = [1, 2, 3, 4, 5]
+#         print("List created")
+
+#     def __del__(self):
+#         print("Destructor called, list deleted")
+
+# myList = listHandler()
+# del myList
+
 class listHandler:
     def __init__(self):
-        self.list = [1, 2, 3, 4, 5]
-        print("List created")
-
+        self.list = [1,2,3,4,5]
+        print("list created.")
+    
     def __del__(self):
-        print("Destructor called, list deleted")
+        print("list deleted, Destructor called!")
 
-myList = listHandler()
-del myList
+mylist = listHandler()
+del mylist
 
 
 # program to demonstrate the use of method overloading in python
@@ -66,7 +77,7 @@ print("Inverse: \n", arr_inv)
 arr = np.array([1,2,3,4,5])
 target = 3
 for i in range(len(arr)):
-    if arr[i] == target:
+    if arr[i] == arr[target]:
         print("Element found at index: ", i)
         break
 else:

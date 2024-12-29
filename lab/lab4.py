@@ -8,7 +8,18 @@
 #     a = b
 #     b = c
 #     c = a + b
-    
+
+a = 0
+b = 1
+c = 0
+
+num = int(input("Enter number of terms in series: "))
+for i in range(0, num):
+    print(c, end = " ")
+    a = b
+    b = c
+    c = a + b
+
 
 # # Demonstrate all the method in list 
 
@@ -129,8 +140,8 @@
 #     sum += i
 # print("Sum of numbers in tuples = ",sum)
 # adding tuple to list
-List = [1, 2, 3, 4, 5]
-Tuple = (6, 7, 8, 9, 10)
-List.extend(Tuple)
-print("Added tuple to list : ")
-print(List)
+# List = [1, 2, 3, 4, 5]
+# Tuple = (6, 7, 8, 9, 10)
+# List.extend(Tuple)
+# print("Added tuple to list : ")
+# print(List)
