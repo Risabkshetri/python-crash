@@ -37,10 +37,34 @@
 # new_size = (int(img.width * 0.5), int(img.height * 0.4))
 # reScaled_img = img.resize(new_size)
 
-a = 20
-def chek():
-    a = 10
-    print(a)
+import numpy as np
 
-chek()
-print(a)
+arr1 = np.array([1,2,3])
+arr2 = np.array([3,4,5])
+
+result = np.hstack(arr1, arr2)
+print(result)  # Output: [1 2 3 3 4 5]
+
+result = np.vstack(arr1, arr2)
+print(result)  # Output: [[1 2 3][3 4 5]]
+
+result = np.dstack(arr1, arr2)
+print(result)  # Output: [[[1 3][2 4][3 5]]
+
+result = np.stack(arr1, arr2, axis=0)
+print(result)  # Output: [[1 2 3][3 4 5]]
+
+result = np.stack(arr1, arr2, axis=1)
+print(result)  # Output: [[1 3][2 4][3 5]]
+
+result = np.stack(arr1, arr2, axis=2)
+print(result)  # Output: [[[1 3][2 4][3 5]]
+
+result = np.split(arr1,2)
+print(result)  # Output: [[1 2 3], [3 4 5]]
+
+result = np.split(arr1, 3,axis=0)
+print(result) # Output: [[1], [2], [3]]
+
+result = np.vsplit(arr2, 3)
+print(result) # Output: [[[3 4 5], [3 4 5],

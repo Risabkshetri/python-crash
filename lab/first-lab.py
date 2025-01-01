@@ -97,7 +97,7 @@ print(5 & 3)   # Bitwise AND: 1
 print(5 | 3)   # Bitwise OR: 7
 print(5 ^ 3)   # Bitwise XOR: 6
 print(~5)      # Bitwise NOT: -6
-print(5 << 1)  # Left shift: 10
+priift: 10
 print(5 >> 1)  # Right shift: 2
 
 # 6.6. identity operators
@@ -112,6 +112,3 @@ print(x is not y) # True
 x = [1, 2, 3]
 print(1 in x)  # True
 print(4 not in x)  # True
-
-
-

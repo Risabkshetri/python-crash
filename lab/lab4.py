@@ -9,17 +9,6 @@
 #     b = c
 #     c = a + b
 
-a = 0
-b = 1
-c = 0
-
-num = int(input("Enter number of terms in series: "))
-for i in range(0, num):
-    print(c, end = " ")
-    a = b
-    b = c
-    c = a + b
-
 
 # # Demonstrate all the method in list 
 
